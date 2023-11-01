@@ -1,7 +1,7 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
 const ShowProduct = () => {
-  const title = useSelector((state) => state.product.title);
+  const {title,price} = useSelector((state) => state.product);
   return (
     <>
     <div className='w-96 h-20 shadow-lg'>

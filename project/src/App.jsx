@@ -5,7 +5,7 @@ const App = () => {
   return (
     <>
    <div className='flex flex-row items-center'>
-   <AddProduct/>
+   {/* <AddProduct/> */}
    <ShowProduct/>
    </div>
     </>

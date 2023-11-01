@@ -2,7 +2,7 @@ import {createSlice} from '@reduxjs/toolkit';
 
 const initialState = {
     title : 'Adidas',
-    price : ''
+    price : '9000'
 }
 const productSlice = createSlice({
     name: "product",
